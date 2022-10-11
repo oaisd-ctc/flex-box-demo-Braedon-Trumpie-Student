@@ -1,0 +1,64 @@
+body {
+    background-image: url("images/repeat.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.holderDiv {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    -ms-flex-align: stretch;
+    display: flex;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border: solid;
+}
+
+#jcc {
+    justify-content: center;
+}
+#ais {
+    align-items: stretch;
+}
+#jcfe {
+    justify-content: flex-end;
+}
+
+.miniDiv {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: coral;
+    width: 100px;
+    border: solid;
+    border-radius: 5px;
+}
+
+.captionDiv {
+    justify-content: center;
+    width: 75%;
+    border:solid;
+}
+
+p {
+    display: block;
+    text-align: center;
+    color:white;
+}
+
+.all {
+    margin:0;
+    background-color: rgb(44, 43, 43);
+    width: 75%;
+    border-left: solid;
+    border-right: solid;
+}
+
+article {
+    display:flex;
+    justify-content: center;
+}
