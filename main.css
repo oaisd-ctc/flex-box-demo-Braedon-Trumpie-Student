@@ -11,7 +11,6 @@ body {
     width: 75%;
     height: 400px;
     background-color: rgb(0, 0, 0);
-    -ms-flex-align: stretch;
     display: flex;
     border-width: 2px;
     border-color: rgb(255, 255, 255);
@@ -21,27 +20,38 @@ body {
 #jcc {
     justify-content: center;
 }
-#ais {
-    align-items: stretch;
+#aic {
+    align-items: center;
 }
 #jcfe {
     justify-content: flex-end;
+}
+#fdc {
+    flex-direction: column;
+}
+#jcsa {
+    justify-content: space-around;
+}
+#jcsb {
+    justify-content: space-between;
+}
+#aifs {
+    align-items: flex-start;
+}
+#aife {
+    align-items: flex-end;
 }
 
 .miniDiv {
     text-align: center;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     background-color: coral;
     width: 100px;
+    height: 175px;
     border: solid;
     border-radius: 5px;
-}
-
-.captionDiv {
-    justify-content: center;
-    width: 75%;
-    border:solid;
 }
 
 p {
@@ -59,6 +69,6 @@ p {
 }
 
 article {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
