@@ -72,3 +72,15 @@ article {
     display: flex;
     justify-content: center;
 }
+
+.special {
+    flex-grow: 1;
+}
+
+.special:hover {
+    flex-grow: 2;
+    background-color: rgb(70, 27, 11);
+    color: coral;
+    transition: .5s;
+    border-color: white;
+}
