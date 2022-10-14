@@ -84,3 +84,13 @@ article {
     transition: .5s;
     border-color: white;
 }
+
+h2 {
+    text-align: center;
+    color: coral;
+}
+h3 {
+    text-align: center;
+    color: rgb(6, 209, 209);
+    margin-bottom: 0;
+}
