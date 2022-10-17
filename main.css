@@ -1,0 +1,96 @@
+body {
+    background-image: url("images/repeat.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.holderDiv {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border: solid;
+}
+
+#jcc {
+    justify-content: center;
+}
+#aic {
+    align-items: center;
+}
+#jcfe {
+    justify-content: flex-end;
+}
+#fdc {
+    flex-direction: column;
+}
+#jcsa {
+    justify-content: space-around;
+}
+#jcsb {
+    justify-content: space-between;
+}
+#aifs {
+    align-items: flex-start;
+}
+#aife {
+    align-items: flex-end;
+}
+
+.miniDiv {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: coral;
+    width: 100px;
+    height: 175px;
+    border: solid;
+    border-radius: 5px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    color:white;
+}
+
+.all {
+    margin:0;
+    background-color: rgb(44, 43, 43);
+    width: 75%;
+    border-left: solid;
+    border-right: solid;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+.special {
+    flex-grow: 1;
+}
+
+.special:hover {
+    flex-grow: 2;
+    background-color: rgb(70, 27, 11);
+    color: coral;
+    transition: .5s;
+    border-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: coral;
+}
+h3 {
+    text-align: center;
+    color: rgb(6, 209, 209);
+    margin-bottom: 0;
+}
